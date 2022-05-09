@@ -1,0 +1,10 @@
+#Stephanie Bravo
+#April 10, 2019
+#This program will go from 0 to 50
+ADDI $s0, $zero, 0 #set s0 to 0
+ADDI $s1, $zero, 5  #use to decrement counter, $s0 Step
+ADDI $s2, $zero, 50 #Stop
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop

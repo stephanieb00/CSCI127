@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_2b5783479b62491b93ae6118ff264040 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_2b5783479b62491b93ae6118ff264040" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_2b5783479b62491b93ae6118ff264040 = L.map(
+        'map_2b5783479b62491b93ae6118ff264040', {
+        center: [40.75, -74.125],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_9279c434c0ac48feba72172dc10a6961 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_2b5783479b62491b93ae6118ff264040);
+    
+        var marker_dbe6cc4c045f410fb9e7d7f8f3aa75a9 = L.marker(
+            [40.768731, -73.964915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_2b5783479b62491b93ae6118ff264040);
+        
+    
+            var popup_fa516b66a0f84f6caab7a94999386607 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b2cc53e5c0534c929e770e37dfcc770a = $(`<div id="html_b2cc53e5c0534c929e770e37dfcc770a" style="width: 100.0%; height: 100.0%;">Hunter College</div>`)[0];
+                popup_fa516b66a0f84f6caab7a94999386607.setContent(html_b2cc53e5c0534c929e770e37dfcc770a);
+            
+
+            marker_dbe6cc4c045f410fb9e7d7f8f3aa75a9.bindPopup(popup_fa516b66a0f84f6caab7a94999386607)
+            ;
+
+            
+        
+</script>

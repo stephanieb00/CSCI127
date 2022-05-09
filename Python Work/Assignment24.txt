@@ -1,0 +1,5 @@
+#Stephanie Bravo
+#February 27, 2019
+#This program computes the majority of 3 inputs. If more than 2 are true then the stamens is true.
+
+out = ((in1 and in2) or (in1 and in3)) or (in2 and in3)

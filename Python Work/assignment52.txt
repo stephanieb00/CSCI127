@@ -1,0 +1,5 @@
+#Stephanie Bravo
+#April 10, 2019
+#This program will find the number of files in a directory with ".py"
+
+ls -l | grep ".py" | wc -l

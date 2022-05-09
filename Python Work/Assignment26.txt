@@ -1,0 +1,6 @@
+#Stephanie Bravo
+#March 6, 2019
+#This program computes the nor statement
+
+
+out = (not(in1 or in2))

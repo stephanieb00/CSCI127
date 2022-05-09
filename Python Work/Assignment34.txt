@@ -1,0 +1,7 @@
+#Stephanie Bravo
+#March 13, 2019
+#This program has 3 outputs and 2 inputs
+
+out1 = (in1 and in2)
+out2 = ((in1 or in2)and(not(in1 and in2)))
+out3 = (not in2)
